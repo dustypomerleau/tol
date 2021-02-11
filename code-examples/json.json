@@ -1,0 +1,30 @@
+{
+  "level 0": "string",
+  "more level 0": {
+    "level 1": "string",
+    "more level 1": {
+      "level 2": "string",
+      "more level 2": {
+        "level 3": "string",
+        "more level 3": {
+          "level 4": "string",
+          "more level 4": {
+            "level 5": "string",
+            "more level 5": {
+              "level 6": "string",
+              "more level 6": {
+                "level 7": "string",
+                "more level 7": {
+                  "level 8": "string",
+                  "more level 8": {
+                    "level 9": "no color cycling from here"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

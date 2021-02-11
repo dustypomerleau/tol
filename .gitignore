@@ -1,0 +1,5 @@
+.DS_Store
+*.afdesign
+*.code-workspace
+*.vsix
+vsc-extension-quickstart.md

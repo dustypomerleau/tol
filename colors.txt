@@ -1,0 +1,56 @@
+main theme colors
+#292d3e background
+#44bb99 function definition, escape
+#77aadd object, struct, UI
+#7e818b comment
+#99ddff punctuation
+#aaaa00 (unused)
+#bbcc33 string
+#cac0a9 foreground
+#dddddd function call, enum
+#ee8866 keyword, operator, UI
+#eedd88 argument, atom
+#ffaabb number, boolean, class, trait, module, interpolation
+
+background tints
+#3e4251
+#535664
+#696c77
+#7e818b
+
+background shades
+#242837
+#202431
+#1c1f2b
+
+background monochromes
+#33384d
+#3d435d
+#474e6c
+#51597b
+
+foreground tints
+#fdf2d8
+#fdf3dc
+#fdf5e0
+
+foreground shades
+#e3d8be
+#cac0a9
+#b1a894
+#97907f
+
+blue tints
+#84b2e0
+#92bbe3
+#9fc3e7
+
+blue shades
+#6b99c6
+#5f88b0
+#53769a
+
+taupe monochromes
+#fdf1d4
+#fce9bc
+#fbe1a3

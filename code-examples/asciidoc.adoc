@@ -1,0 +1,422 @@
+// optional header
+// only one H1 for articles (default), multiple ok for books
+= My Document's Title
+Doc Writer <docwriter@gmail.com>
+v0.1, 2020-01-01
+:toc:
+// right auto ?left also
+:iconsdir: ./icons
+// default ./images/icons/
+// :icons:
+:imagesdir: ./images
+// default is .
+:homepage: https://asciidoctor.org
+// :hardbreaks:
+:!sectnums:
+
+== H2 section title
+=== H3 section title
+==== H4 section title
+===== H5 section title
+====== H6 section title
+// asciidoctor allows markdown style
+## H2 section title
+### H3 section title
+#### H4 section title
+##### H5 section title
+###### H6 section title
+
+
+before the hardbreak +
+after the hardbreak
+
+[%hardbreaks]
+all of these
+lines
+have hard breaks
+
+  this is literal (and monospaced) text
+
+
+NOTE: a note admonition
+
+// other builtins are
+// TIP:
+// IMPORTANT:
+// WARNING:
+// CAUTION:
+
+
+[.lead]
+this text is styled larger (a lead paragraph)
+
+
+bold *constrained* & **un**constrained
+
+italic _constrained_ & __un__constrained
+
+bold italic *_constrained_* & **__un__**constrained
+
+monospace `constrained` & ``un``constrained
+
+monospace bold `*constrained*` & ``**un**``constrained
+
+monospace italic `_constrained_` & ``__un__``constrained
+
+monospace bold italic `*_constrained_*` & ``**__un__**``constrained
+
+
+// The first attribute in the list is treated as a role:
+Type [.userinput]#asciidoc# into the search bar
+// This wraps the text in a class that you can style with CSS.
+
+
+\*Stars* will appear as *Stars*, not as bold text.
+
+\&sect; will appear as an entity, not the &sect; symbol.
+
+\\__func__ will appear as __func__, not as emphasized text.
+
+\{two-semicolons} will appear as {two-semicolons}, not resolved as ;;.
+
+pass:[content like #{variable} passed directly to the output] followed by normal content.
+
+content with only select substitutions applied: pass:a,c[__<{email}>__]
+// "substitute only the things I list, pass the other ones through to be processed in the language of interest (for example, HTML)."
+// a = attributes
+// c = special characters
+// m = macros
+// p = post replacements
+// q = quotes
+// r = replacements
+
+// Triple + is like pass:[] with no substitutions
+The text +++<u>underline me</u>+++ is underlined.
+
+escaping formatting marks with pluses in normal text: +__module__+
+
+
+[%hardbreaks]
+(C)
+(R)
+(TM)
+em--dash
+// likely to be matched with latex in 2.0 (-- and ---)
+...
+->
+<-
+=>
+<=
+
+
+// using `-` doesn't give you the same nesting freedom
+// marker uniqueness determines nesting level
+// but by convention number of asterisks is used
+.A list title
+* item 1
+** item 2
+*** item 3
+* item 4
+
+// force 2 adjacent lists apart with a commented dash (convention - any comment works - not usually necessary with asciidoctor in my experience)
+//-
+
+.Another list
+. one
+. two
+. three
+
+.Another one still
+[start=4]
+. four
+. five
+. six
+.. subsix
+... subsubsix
+
+.And another
+[lowerroman, start=2]
+// arabic, loweralpha, upperalpha, lowerroman, upperroman
+. next
+.. next
+... next
+
+.Yet another
+[loweralpha]
+. next
+[lowerroman]
+.. next
+. but seeing this:
+.. perhaps handle globally because it's not sticky
+
+.Indent if you want
+. one
+  . two but notice symbol not indent determines format
+    .. three at level 2
+
+
+// description lists
+CPU:: the brain of the computer
+Motherboard:: the other thing
+
+[horizontal]
+CPU:: the brain of the computer
+Motherboard:: the other thing
+
+// indent and spacing means nothing, just preference
+Happy::
+. a list item
+. and another
+
+Sad::
+  * an item
+  * and another
+Ambivalent::
+. you
+. know
+
+// nested description lists
+Operating Systems::
+  Linux:::
+    . Fedora
+      * Desktop
+    . Ubuntu
+      * Desktop
+      * Server
+  BSD:::
+    . FreeBSD
+    . NetBSD
+
+Cloud Providers::
+  PaaS:::
+    . OpenShift
+    . CloudBees
+  IaaS:::
+    . Amazon EC2
+    . Rackspace
+
+
+// list continuation is a plus on its own line
+* some list item
++
+list continuation content
+
+// attach a block
+* The header in AsciiDoc must start with a document title.
++
+----
+= Document Title
+----
+
+// attach several blocks with an open block
+* The header in AsciiDoc must start with a document title.
++
+--
+Here's an example of a document title:
+
+----
+= Document Title
+----
+
+NOTE: The header is optional.
+--
+
+// open block used to attach a source file
+* list item
++
+--
+include::shared-content.adoc[]
+--
+
+// {blank} attribute used to display *only* complex content in a list
+. {blank}
++
+----
+print("one")
+----
+. {blank}
++
+----
+print("two")
+----
+
+// attach a paragraph to the parent rather than the child with 1 blank line and a `+` (2 preceding blank lines attached to the grandparent, and so on)
+* parent list item
+** child list item
+
++
+paragraph attached to parent list item
+
+// to be more explicit, use an open block:
+* grandparent list item
++
+--
+** parent list item
+*** child list item
+--
++
+paragraph attached to grandparent list item
+
+
+here is some #highlighting#
+
+some [.underline]#underlining#
+
+some [.line-through]#linethrough# no line through
+
+some [.small]#small text#
+
+some [.big]##b##ig letter unconstrained text
+
+some ^super^script
+
+some ~sub~script
+
+"`double curved quotes`"
+
+'`single curved quotes`'
+
+Jim's typographic apostrophe.
+
+// link macro:
+link:url[optional link text, optional target attribute, optional role attribute]
+// caret is short for a target of _blank
+link:https://asciidoctor.org[this page^, role=green]
+
+Attributes:
+
+`[A-z0-9_][-A-z0-9_]*`
+
+set (and toggle on) an attribute:
+:leveloffset: 3
+
+toggle off an attribute:
+:!sectnums:
+
+:toc:
+:my-url: https://asciidoctor.org
+:another-url: https://asciidoctor.org[this location]
+
+Go to {my-url}
+Go to {my-url}[this url].
+Go to {another-url}
+
+// attributes lists (to be set on an element that follows)
+[#id_name]#content#
+[.role_name]#content#
+[%option]#content#
+[#id_name.role_1.role_2%option_1%option_2]#content#
+
+// you can add a block style before the ID:
+
+[verse#content, x]
+____
+content
+____
+
+// you can also assign roles to quoted text like this:
+[.underline]*both underlined and bold*
+[.underline]`both underlined and monospace`
+
+// positional attributes
+// you don't need to assign the attributes by name in some cases
+// the order will determine the attribute name assigned
+// specifically:
+// icon: (1) size
+// image: and image:: (1) alt text, (2) width, (3) height
+// Delimited blocks: (1) block name (aka style)
+// Other inline quoted text: (1) role
+// for example:
+image::sunset.jpg[Sunset,300,400]
+// is equivalent to:
+image::sunset.jpg[alt=Sunset,width=300,height=400]
+
+
+// A paragraph block can be assigned one of the following built-in style attributes (first positional attribute for attribute lists applied to block or macro):
+
+////
+normal (default, so does not need to be set)
+literal
+verse
+quote
+listing
+TIP
+NOTE
+IMPORTANT
+WARNING
+CAUTION
+abstract
+partintro
+comment
+example
+sidebar
+source
+////
+
+
+[quote#roads, Dr. Emmett Brown]
+____
+Roads? Where we're going, we don't need roads.
+____
+
+
+[cols="3*"]
+|===
+
+| Admonition
+| `[<LABEL>]`
+| `====`
+
+| Comment
+| N/A
+| `////`
+
+| Example
+| `[example]`
+| `====`
+
+| Fenced
+| N/A
+| `pass:[```]`
+
+| Listing
+| `[listing]`
+| `----`
+
+| Literal
+| `[literal]`
+| `pass:[....]`
+
+| Open
+| Most block names
+| `--`
+
+| Passthrough
+| `[pass]`
+| `pass:[++++]`
+
+| Quote
+| `[quote]`
+| `pass:[____]`
+
+| Sidebar
+| `[sidebar]`
+| `pass:[****]`
+
+| Source
+| `[source]`
+| `----`
+
+| Stem
+| `[stem]`
+| `pass:[++++]`
+
+| Table
+| N/A
+| `\|===`
+
+| Verse
+| `[verse]`
+| `pass:[____]`
+
+|===
