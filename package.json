@@ -1,49 +1,49 @@
 {
     "name": "tol",
     "displayName": "Tol",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "dustypomerleau",
     "description": "A comfortable and accessible dark theme for Visual Studio Code",
     "homepage": "https://github.com/dustypomerleau/tol",
     "author": {
-      "name": "dustypomerleau"
+        "name": "dustypomerleau"
     },
     "repository": {
-      "type": "git",
-      "url": "https://github.com/dustypomerleau/tol"
+        "type": "git",
+        "url": "https://github.com/dustypomerleau/tol"
     },
     "bugs": {
-      "url": "https://github.com/dustypomerleau/tol/issues"
+        "url": "https://github.com/dustypomerleau/tol/issues"
     },
     "license": "Please see LICENSE.md",
     "galleryBanner": {
-      "color": "#292d3e",
-      "theme": "dark"
+        "color": "#292d3e",
+        "theme": "dark"
     },
     "icon": "images/icon.png",
     "keywords": [
-      "dark",
-      "theme",
-      "color",
-      "blind",
-      "tol"
+        "dark",
+        "theme",
+        "color",
+        "blind",
+        "tol"
     ],
     "categories": [
-      "Themes"
+        "Themes"
     ],
     "contributes": {
-      "themes": [
-        {
-          "label": "Tol",
-          "uiTheme": "vs-dark",
-          "path": "./themes/tol.json"
-        }
-      ]
+        "themes": [
+            {
+                "label": "Tol",
+                "uiTheme": "vs-dark",
+                "path": "./themes/tol.json"
+            }
+        ]
     },
     "engines": {
-      "vscode": "^1.53.0"
+        "vscode": "^1.53.0"
     },
     "devDependencies": {
-      "vscode": "^1.53.0"
+        "vscode": "^1.53.0"
     }
-  }
+}
