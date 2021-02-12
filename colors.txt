@@ -1,4 +1,4 @@
-main theme colors
+theme colors
 #292d3e background
 #44bb99 function definition, escape
 #77aadd object, struct, UI
