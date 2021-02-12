@@ -78,7 +78,6 @@ If you need to modify any of the existing colors, you can do this in your `setti
         "editorError.foreground": "#00000000"
     }
 }
-
 ```
 
 For available options, check out the [Theme Color][] docs. Default colors are listed in [`colors.txt`][].
