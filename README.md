@@ -5,7 +5,7 @@ Tol is heavily influenced by my [Yarra Valley][] theme, but uses a more muted pa
 
 ## Semantic highlighting
 
-Tol includes semantic highlighting for supported languages. Semantic highlighting provides a greater guarantee that tokens will be highlighted correctly, but typically provides less nuanced highlighting.
+Tol includes semantic highlighting for supported languages. Semantic highlighting provides a greater guarantee that tokens will be highlighted correctly, but may provide less nuanced highlighting.
 
 Screenshots here are shown with semantic highlighting disabled:
 
@@ -19,7 +19,7 @@ Or at the individual extension level:
   "C_Cpp.enhancedColorization": "Disabled"
 ```
 
-## Screenshots
+## Screenshots:
 
 ## Typescript
 ![typescript](./images/typescript.png)
@@ -60,25 +60,28 @@ If you need to modify any of the existing colors, you can do this in your `setti
 
 ```json
 "editor.tokenColorCustomizations": {
-  "[Tol]": {
-    "textMateRules": [
-      {
-        "scope": [
-          "string.quoted.double.json.comments"
-        ],
-        "settings": {
-          "foreground": "#ffff00"
-        }
-      }
-    ]
-  }
+    "[Tol]": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "storage.type"
+                ],
+                "settings": {
+                    "foreground": "#ffff00"
+                }
+            }
+        ]
+    }
 },
 "workbench.colorCustomizations": {
-  "[Tol]":{
-    "editorError.foreground": "#00000000"
-  }
+    "[Tol]": {
+        "editorError.foreground": "#00000000"
+    }
 }
+
 ```
+
+For available options, check out the [Theme Color][] docs. Default colors are listed in [`colors.txt`][].
 
 ## Supported languages and extensions
 
@@ -144,6 +147,7 @@ If you need to modify any of the existing colors, you can do this in your `setti
 - Zig
 -->
 
+[`colors.txt`]: ./colors.txt
 [AsciiDoc]: https://marketplace.visualstudio.com/items?itemName=joaompinto.asciidoctor-vscode
 [Better TOML]: https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml
 [C/C++]: https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
@@ -177,6 +181,7 @@ If you need to modify any of the existing colors, you can do this in your `setti
 [Rust]: https://marketplace.visualstudio.com/items?itemName=rust-lang.rust
 [Sass]: https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented
 [Swift Language]: https://marketplace.visualstudio.com/items?itemName=Kasik96.swift
+[Theme Color]: https://code.visualstudio.com/api/references/theme-color
 [VimL]: https://marketplace.visualstudio.com/items?itemName=XadillaX.viml
 [VSCode Ruby]: https://marketplace.visualstudio.com/items?itemName=wingrunr21.vscode-ruby
 [vscode-scheme]: https://marketplace.visualstudio.com/items?itemName=sjhuangx.vscode-scheme
