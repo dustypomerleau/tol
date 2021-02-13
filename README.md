@@ -146,7 +146,7 @@ For available options, check out the [Theme Color][] docs. Default colors are li
 - Zig
 -->
 
-[`colors.txt`]: ./colors.txt
+[`colors.txt`]: https://github.com/dustypomerleau/tol/blob/master/colors.txt
 [AsciiDoc]: https://marketplace.visualstudio.com/items?itemName=joaompinto.asciidoctor-vscode
 [Better TOML]: https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml
 [C/C++]: https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
