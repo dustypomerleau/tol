@@ -83,7 +83,7 @@
 			}
 		},
 		{
-			"name": "slate: objects, keys",
+			"name": "blue: objects, keys",
 			"scope": [
 				"constant.other.table-name.sql",
 				"constant.type-constructor.elm",
@@ -167,7 +167,7 @@
 			}
 		},
 		{
-			"name": "red: numbers, language constants",
+			"name": "pink: numbers, language constants",
 			"scope": [
 				"constant.language",
 				"constant.numeric",
@@ -271,7 +271,7 @@
 			}
 		},
 		{
-			"name": "light pink: modules, classes",
+			"name": "pink: modules, classes",
 			"scope": [
 				"constant.other.general.math.tex",
 				"entity.name.class.js",
@@ -502,7 +502,7 @@
 			}
 		},
 		{
-			"name": "blue: punctuation",
+			"name": "light blue: punctuation",
 			"scope": [
 				"comment.punctuation.comma.sass",
 				"constant.asciidoc",
@@ -645,7 +645,7 @@
 			}
 		},
 		{
-			"name": "purple: atoms, function params, list items, types",
+			"name": "yellow: atoms, function params, list items, types",
 			"scope": [
 				"constant.keyword.clojure",
 				"constant.language.symbol",
@@ -694,7 +694,7 @@
 			}
 		},
 		{
-			"name": "forest green: strings",
+			"name": "pear green: strings",
 			"scope": [
 				"constant.character.css.sass",
 				"constant.pathname.viml",
@@ -713,7 +713,7 @@
 			}
 		},
 		{
-			"name": "subdued mint green: escapes, placeholders",
+			"name": "mint green: escapes, placeholders",
 			"scope": [
 				"constant.character.escape",
 				"constant.character.numeric.regexp",
