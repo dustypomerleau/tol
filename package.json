@@ -1,7 +1,7 @@
 {
     "name": "tol",
     "displayName": "Tol",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "publisher": "dustypomerleau",
     "description": "A comfortable and accessible dark theme for Visual Studio Code",
     "homepage": "https://github.com/dustypomerleau/tol",
