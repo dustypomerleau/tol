@@ -6,8 +6,7 @@
 		"builtinType": "#eedd88",
 		"class": "#ffaabb",
 		"comment": "#7e818b",
-		"enum:rust": "#dddddd",
-		"enum": "#77aadd",
+		"enum": "#dddddd",
 		"enumMember:rust": "#ffaabb",
 		"enumMember": "#cac0a9",
 		"escapeSequence": "#44bb99",
@@ -33,8 +32,7 @@
 		"number": "#ffaabb",
 		"operator": "#ee8866",
 		"parameter.declaration:javascript": "#eedd88",
-		"parameter:javascript": "#77aadd",
-		"parameter": "#cac0a9",
+		"parameter": "#77aadd",
 		"property": "#dddddd",
 		"punctuation": "#99ddff",
 		"regexp": "#ffaabb",
@@ -751,7 +749,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#77aadd"
+				"foreground": "#eedd88"
 			}
 		},
 		{
