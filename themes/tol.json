@@ -728,29 +728,29 @@
 			}
 		},
 		{
-			"name": "self, super",
+			"name": "self, super, this",
 			"scope": [
-				"markup.admonition entity.name.function.asciidoc",
 				"variable.language.self.crystal",
 				"variable.language.special.self.python",
 				"variable.language.super.js.jsx",
 				"variable.language.super.js",
 				"variable.language.super.ts",
-				"variable.language.super.tsx"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#ffaabb"
-			}
-		},
-		{
-			"name": "this",
-			"scope": [
+				"variable.language.super.tsx",
 				"variable.language.this"
 			],
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#eedd88"
+			}
+		},
+		{
+			"name": "asciidoc admonition",
+			"scope": [
+				"markup.admonition entity.name.function.asciidoc"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#ffaabb"
 			}
 		},
 		{
