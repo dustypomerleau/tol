@@ -31,6 +31,7 @@
 		"namespace": "#ffaabb",
 		"number": "#ffaabb",
 		"operator": "#ee8866",
+		"parameter:rust": "#cac0a9",
 		"parameter.declaration:javascript": "#eedd88",
 		"parameter": "#77aadd",
 		"property": "#dddddd",
