@@ -26,6 +26,7 @@
 		"macro": "#77aadd",
 		"member.declaration": "#44bb99",
 		"member": "#cac0a9",
+		"method.declaration": "#44bb99",
 		"method": "#cac0a9",
 		"namespace:rust": "#cac0a9",
 		"namespace.declaration:rust": "#ffaabb",
