@@ -45,7 +45,7 @@
 		"type": "#eedd88",
 		"typeAlias": "#eedd88",
 		"typeParameter": "#eedd88",
-		"unresolvedReference": "#ff4340",
+		// "unresolvedReference": "#ff4340",
 		"variable.constant:rust": "#cac0a9",
 		"variable.declaration.constant:rust": "#cac0a9",
 		"variable.declaration.static:rust": "#cac0a9",
