@@ -1069,7 +1069,7 @@
 		"editorOverviewRuler.commonContentForeground": "#474e6c80",
 		"editorOverviewRuler.currentContentForeground": "#53566480",
 		"editorOverviewRuler.deletedForeground": "#ff434050",
-		"editorOverviewRuler.errorForeground": "#ff4340a0",
+		"editorOverviewRuler.errorForeground": "#ff434070",
 		"editorOverviewRuler.findMatchForeground": "#ee8866b0",
 		"editorOverviewRuler.incomingContentForeground": "#85990080",
 		"editorOverviewRuler.infoForeground": "#2aa19890",
