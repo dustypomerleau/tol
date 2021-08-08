@@ -45,7 +45,6 @@
         "type": "#eedd88",
         "typeAlias": "#eedd88",
         "typeParameter": "#eedd88",
-        // "unresolvedReference": "#ff4340",
         "variable.constant:rust": "#cac0a9",
         "variable.declaration.constant:rust": "#cac0a9",
         "variable.declaration.static:rust": "#cac0a9",
@@ -53,6 +52,7 @@
         "variable.readonly:javascript": "#ffaabb",
         "variable.readonly.local:javascript": "#cac0a9",
         "variable": "#cac0a9"
+        // "unresolvedReference": "#ff4340",
     },
     "tokenColors": [
         {
@@ -216,6 +216,7 @@
                 "keyword.other.preprocessor.haskell",
                 "markup.list meta.paragraph.markdown",
                 "markup.list.numbered meta.paragraph.markdown",
+                "meta variable.other.property.ts",
                 "meta.attribute.rust",
                 "meta.declaration.data.algebraic.haskell meta.deriving.haskell storage.type.haskell",
                 "meta.declaration.exports.haskell entity.name.function.haskell",
@@ -257,6 +258,7 @@
                 "support.function.swift",
                 "support.function.target.PHONY.makefile",
                 "support.type.builtin.graphql",
+                "support.variable.property.ts",
                 "support.variable.swift",
                 "text.restructuredtext constant.other.footnote.link",
                 "variable.language",
@@ -333,6 +335,7 @@
                 "meta.function-call.c",
                 "meta.function-call.erlang variable.other.erlang",
                 "meta.function-call.swift",
+                "meta.function-call.ts entity.name.function.ts",
                 "meta.function.call.rust entity.name.function.rust",
                 "meta.function.js support",
                 "meta.method-call.with-arguments.js support.type",
@@ -388,11 +391,7 @@
         },
         {
             "name": "invalid",
-            "scope": [
-                "invalid.deprecated",
-                "invalid.illegal",
-                "invalid"
-            ],
+            "scope": ["invalid.deprecated", "invalid.illegal", "invalid"],
             "settings": {
                 "foreground": "#ff4340"
             }
@@ -644,7 +643,7 @@
                 "constant.other.gleam",
                 "constant.other.reference.label.latex",
                 "constant.other.reference.link.markdown",
-                "constant.other.symbol", // atoms
+                "constant.other.symbol",
                 "entity.name.tag.restructuredtext",
                 "entity.name.type.namespace.scope-resolution.cpp",
                 "entity.name.variable.parameter.cs",
@@ -740,9 +739,7 @@
         },
         {
             "name": "asciidoc admonition",
-            "scope": [
-                "markup.admonition entity.name.function.asciidoc"
-            ],
+            "scope": ["markup.admonition entity.name.function.asciidoc"],
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#ffaabb"
@@ -772,20 +769,14 @@
         },
         {
             "name": "URL",
-            "scope": [
-                "*url*",
-                "*link*",
-                "*uri*"
-            ],
+            "scope": ["*url*", "*link*", "*uri*"],
             "settings": {
                 "fontStyle": "underline"
             }
         },
         {
             "name": "markdown italic delimiters",
-            "scope": [
-                "punctuation.definition.italic.markdown"
-            ],
+            "scope": ["punctuation.definition.italic.markdown"],
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#99ddff"
@@ -793,9 +784,7 @@
         },
         {
             "name": "markup italic text",
-            "scope": [
-                "markup.italic"
-            ],
+            "scope": ["markup.italic"],
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#bbcc33"
@@ -831,9 +820,7 @@
         },
         {
             "name": "markup underline",
-            "scope": [
-                "markup.underline"
-            ],
+            "scope": ["markup.underline"],
             "settings": {
                 "fontStyle": "underline",
                 "foreground": "#bbcc33"
@@ -841,9 +828,7 @@
         },
         {
             "name": "markup block quote",
-            "scope": [
-                "markup.quote meta.paragraph.markdown"
-            ],
+            "scope": ["markup.quote meta.paragraph.markdown"],
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#44bb99"
@@ -851,27 +836,21 @@
         },
         {
             "name": "markup inserted",
-            "scope": [
-                "markup.inserted"
-            ],
+            "scope": ["markup.inserted"],
             "settings": {
                 "foreground": "#bbcc33"
             }
         },
         {
             "name": "markup deleted",
-            "scope": [
-                "markup.deleted"
-            ],
+            "scope": ["markup.deleted"],
             "settings": {
                 "foreground": "#ff434080"
             }
         },
         {
             "name": "markup changed",
-            "scope": [
-                "markup.changed"
-            ],
+            "scope": ["markup.changed"],
             "settings": {
                 "foreground": "#eedd88"
             }
