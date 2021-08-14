@@ -49,8 +49,6 @@
         "variable.declaration.constant:rust": "#cac0a9",
         "variable.declaration.static:rust": "#cac0a9",
         "variable.declaration.static.constant:rust": "#cac0a9",
-        "variable.readonly:javascript": "#ffaabb",
-        "variable.readonly.local:javascript": "#cac0a9",
         "variable": "#cac0a9"
         // "unresolvedReference": "#ff4340",
     },
