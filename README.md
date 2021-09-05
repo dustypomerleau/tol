@@ -126,9 +126,9 @@ For available options, check out the [Theme Color][] docs. Default colors are li
 - R ([R][])
 - Racket ([Magic Racket][])
 - Reason ([reason-vscode][] or [OCaml and Reason IDE][])
-- reStructuredText ([reStructuredText][])
+- reStructuredText ([reStructuredText Syntax Highlighting][])
 - Ruby ([Ruby][] + [VSCode Ruby][])
-- Rust ([Rust Syntax][] + [Rust][])
+- Rust ([Rust Syntax][] + [rust-analyzer][])
 - Sass ([Sass][])
 - Scheme ([vscode-scheme][])
 - SCSS
@@ -182,10 +182,10 @@ For available options, check out the [Theme Color][] docs. Default colors are li
 [Python]: https://marketplace.visualstudio.com/items?itemName=ms-python.python
 [R]: https://marketplace.visualstudio.com/items?itemName=Ikuyadeu.r
 [reason-vscode]: https://marketplace.visualstudio.com/items?itemName=jaredly.reason-vscode
-[reStructuredText]: https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext
+[reStructuredText Syntax Highlighting]: https://marketplace.visualstudio.com/items?itemName=trond-snekvik.simple-rst
 [Ruby]: https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby
 [Rust Syntax]: https://marketplace.visualstudio.com/items?itemName=dustypomerleau.rust-syntax
-[Rust]: https://marketplace.visualstudio.com/items?itemName=rust-lang.rust
+[rust-analyzer]: https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer
 [Sass]: https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented
 [Swift Language]: https://marketplace.visualstudio.com/items?itemName=Kasik96.swift
 [Theme Color]: https://code.visualstudio.com/api/references/theme-color
