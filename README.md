@@ -10,13 +10,21 @@ Tol includes semantic highlighting for supported languages. Semantic highlightin
 Screenshots here are shown with semantic highlighting disabled:
 
 ```json
- "editor.semanticHighlighting.enabled": false
+"editor.semanticHighlighting.enabled": false
 ```
 
 Or at the individual extension level:
 
 ```json
-  "C_Cpp.enhancedColorization": "Disabled"
+"C_Cpp.enhancedColorization": "Disabled"
+```
+
+## Bracket colorization
+
+Tol includes support for cycling the colors of nested brackets. You can enable this feature in your settings:
+
+```json
+"editor.bracketPairColorization.enabled": true,
 ```
 
 ## Screenshots:
