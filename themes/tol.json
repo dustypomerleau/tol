@@ -4,6 +4,7 @@
     "semanticTokenColors": {
         "attribute": "#dddddd",
         "boolean": "#eedd88",
+        "builtinAttribute": "#dddddd",
         "builtinType": "#eedd88",
         "class": "#ffaabb",
         "comment": "#7e818b",
@@ -16,6 +17,7 @@
         "function.attribute:rust": "#dddddd",
         "function.declaration": "#44bb99",
         "function": "#cac0a9",
+        "generic.attribute": "#dddddd",
         "interface": "#ffaabb",
         "keyword": "#ee8866",
         "label": "#cac0a9",
