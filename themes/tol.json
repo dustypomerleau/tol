@@ -171,7 +171,6 @@
             "scope": [
                 "constant.language",
                 "constant.numeric",
-                "constant.other.caps.rust",
                 "constant.other.fsharp",
                 "entity.name.function.macro.erlang",
                 "markup.changed.git_gutter",
@@ -321,13 +320,14 @@
         {
             "name": "taupe: default for variables and constants",
             "scope": [
+                "JSXNested",
                 "constant",
+                "constant.other.caps.rust",
                 "entity.name.function.call.cpp",
                 "entity.name.function.java",
                 "entity.name.function.member.cpp",
                 "entity.name.record.field.accessor.elm",
                 "entity.name.type.class.module.erlang",
-                "JSXNested",
                 "keyword.control.unit.css.sass",
                 "keyword.other.platform.os.swift",
                 "keyword.other.unit",
