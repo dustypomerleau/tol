@@ -2,6 +2,10 @@
 
 Notable changes to the Tol theme extension will be documented in this file.
 
+## **[0.4.0]:** 2022-02-18
+
+- improve consistency across booleans, macros, and keywords, particularly for Rust
+
 ## **[0.3.0]:** 2022-01-09
 
 - add support for unicode highlight
