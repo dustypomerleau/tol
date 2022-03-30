@@ -2,6 +2,10 @@
 
 Notable changes to the Tol theme extension will be documented in this file.
 
+## **[0.5.0]:** 2022-03-30
+
+- customize inlay hints; match comments
+
 ## **[0.4.0]:** 2022-02-18
 
 - improve consistency across booleans, macros, and keywords, particularly for Rust
