@@ -2,6 +2,10 @@
 
 Notable changes to the Tol theme extension will be documented in this file.
 
+## **[0.6.0]:** 2022-07-26
+
+- distinguish Latex commands in the math environment
+
 ## **[0.5.0]:** 2022-03-30
 
 - customize inlay hints; match comments
