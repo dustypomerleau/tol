@@ -85,6 +85,7 @@
         {
             "name": "blue: objects, keys",
             "scope": [
+                "constant.other.general.math.tex",
                 "constant.other.table-name.sql",
                 "constant.type-constructor.elm",
                 "entity.name.constant.racket",
@@ -272,7 +273,6 @@
         {
             "name": "pink: modules, classes",
             "scope": [
-                "constant.other.general.math.tex",
                 "entity.name.class.js",
                 "entity.name.class.kotlin",
                 "entity.name.function.preprocessor.cpp",
