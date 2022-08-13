@@ -40,6 +40,7 @@
         "punctuation": "#99ddff",
         "regexp": "#ffaabb",
         "selfKeyword:rust": "#dddddd",
+        "selfTypeKeyword:rust": "#dddddd",
         "string": "#bbcc33",
         "struct": "#77aadd",
         "type": "#eedd88",
