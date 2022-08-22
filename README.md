@@ -1,72 +1,38 @@
 # Tol
+
 ## A comfortable and accessible dark theme for Visual Studio Code
 
 Tol is heavily influenced by my [Yarra Valley][] theme, but uses a more muted palette developed by [Paul Tol][] for clarity and color accessibility.
 
-## Semantic highlighting
-
-Tol includes semantic highlighting for supported languages. Semantic highlighting provides a greater guarantee that tokens will be highlighted correctly, but may provide less nuanced highlighting.
-
-Screenshots here are shown with semantic highlighting disabled:
+Tol provides support for semantic highlighting and bracket colorization.
+The screenshot below was taken with the following settings in `settings.json`:
 
 ```json
-"editor.semanticHighlighting.enabled": false
+{
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "editor.guides.bracketPairsHorizontal": false,
+    "editor.semanticHighlighting.enabled": true
+}
 ```
 
-Or at the individual extension level:
-
-```json
-"C_Cpp.enhancedColorization": "Disabled"
-```
-
-## Bracket colorization
-
-Tol includes support for cycling the colors of nested brackets. You can enable this feature in your settings:
-
-```json
-"editor.bracketPairColorization.enabled": true,
-```
-
-## Screenshots:
-
-## Typescript
-![typescript](./images/typescript.png)
-
-## React
-![react](./images/react.png)
-
-## Elixir
-![elixir](./images/elixir.png)
-
-## Rust (using [Rust Syntax][])
-![rust](./images/rust.png)
-
-## Ruby
-![ruby](./images/ruby.png)
-
-## Go
-![go](./images/go.png)
-
-## Elm
-![elm](./images/elm.png)
-
-## HTML
-![html](./images/html.png)
-
-## CSS
-![css](./images/css.png)
-
-## Python
-![python](./images/python.png)
-
-## Markdown
-![markdown](./images/markdown.png)
+![rust](./images/rust-semantic.png)
 
 ## Customization
 
 If you need to modify any of the existing colors, you can do this in your `settings.json`:
 
 ```json
+// semantic highlighting scopes
+"editor.semanticTokenColorCustomizations": {
+    "[Tol]": {
+        "rules": {
+            "function.declaration:rust": "#aabbccff"
+        }
+    }
+},
+
+// textmate scopes
 "editor.tokenColorCustomizations": {
     "[Tol]": {
         "textMateRules": [
@@ -75,15 +41,17 @@ If you need to modify any of the existing colors, you can do this in your `setti
                     "storage.type"
                 ],
                 "settings": {
-                    "foreground": "#ffff00"
+                    "foreground": "#ff8000ff"
                 }
             }
         ]
     }
 },
+
+// workbench colors
 "workbench.colorCustomizations": {
     "[Tol]": {
-        "editorError.foreground": "#00000000"
+        "editorError.foreground": "#aa00ffff"
     }
 }
 ```
