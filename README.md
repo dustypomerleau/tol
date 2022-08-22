@@ -5,7 +5,7 @@
 Tol is heavily influenced by my [Yarra Valley][] theme, but uses a more muted palette developed by [Paul Tol][] for clarity and color accessibility.
 
 Tol provides support for semantic highlighting and bracket colorization.
-The screenshot below was taken with the following settings in `settings.json`:
+The screenshot below was taken with the following options in `settings.json`:
 
 ```json
 {
