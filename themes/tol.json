@@ -42,12 +42,12 @@
         "type": "#eedd88",
         "typeAlias": "#eedd88",
         "typeParameter": "#eedd88",
-        "variable": "#cac0a9"
+        "variable": "#cac0a9",
         "variable.constant:rust": "#cac0a9",
         "variable.declaration.constant:rust": "#cac0a9",
         "variable.declaration.static.constant:rust": "#cac0a9",
         "variable.declaration.static:rust": "#cac0a9",
-        "variable.defaultLibrary:javascript": "#77aadd",
+        "variable.defaultLibrary:javascript": "#77aadd"
         // "unresolvedReference": "#ff4340",
     },
     "tokenColors": [
