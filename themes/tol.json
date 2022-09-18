@@ -553,7 +553,7 @@
             "name": "pink: interpolations, regular expressions",
             "scope": [
                 "constant.character.format.placeholder.other.python",
-                "constant.language.import-export-all.tsx",
+                // "constant.language.import-export-all.tsx",
                 "constant.language.lua",
                 "constant.language.unit.idris",
                 "constant.numeric.math.tex",
