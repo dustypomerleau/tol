@@ -191,6 +191,8 @@
             "name": "gray: function calls, attributes",
             "scope": [
                 "constant.other.citation.link.restructuredtext",
+                "meta.typecast.edgeql storage.type.edgeql",
+                "meta.typecast.edgeql",
                 "constant.other.database-name.sql",
                 "entity.name.class",
                 "entity.name.function.c",
@@ -319,6 +321,8 @@
             "name": "taupe: default for variables and constants",
             "scope": [
                 "JSXNested",
+                "meta.function-call entity.name.function.edgeql",
+                "meta.function-call support.function.builtin.edgeql",
                 "constant",
                 "constant.other.caps.rust",
                 "entity.name.function.call.cpp",
@@ -399,6 +403,7 @@
             "name": "orange: keywords, control, storage",
             "scope": [
                 "entity.name.function.macro.rules.rust",
+                "keyword.operator.namespace.edgeql",
                 "punctuation.destructuring.js",
                 "entity.name.section.markdown",
                 "keyword.control.anchor.regexp",
@@ -498,6 +503,8 @@
             "name": "light blue: punctuation",
             "scope": [
                 "comment.punctuation.comma.sass",
+                "source.edgeql storage.type",
+                "source.edgeql keyword.operator.cast",
                 "constant.asciidoc",
                 "constant.character.asciidoc",
                 "constant.language.import-export-all",
@@ -669,6 +676,7 @@
                 "storage.type.elm",
                 "storage.type.haskell",
                 "support.constant.attribute-name.asciidoc",
+                "support.type.builtin.edgeql",
                 "support.type.builtin.ts",
                 "support.type.primitive",
                 "support.variable.environment.viml",
