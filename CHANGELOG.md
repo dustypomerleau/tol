@@ -2,6 +2,11 @@
 
 Notable changes to the Tol theme extension will be documented in this file.
 
+## **[0.7.0]:** 2022-09-29
+
+- better consistency between JS/TS and Rust semantic scopes
+- better consistency between JS/TS semantic and textmate scopes
+
 ## **[0.6.0]:** 2022-07-26
 
 - distinguish Latex commands in the math environment
