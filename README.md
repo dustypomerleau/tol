@@ -68,6 +68,7 @@ For available options, check out the [Theme Color][] docs. Default colors are li
 - Crystal ([Crystal Language][])
 - CSS
 - Dart ([Dart Code][])
+- EdgeQL ([edgedb][])
 - Elixir ([ElixirLS][])
 - Elm ([Elm][])
 - Erlang ([erlang][])
@@ -126,10 +127,10 @@ For available options, check out the [Theme Color][] docs. Default colors are li
 [AsciiDoc]: https://marketplace.visualstudio.com/items?itemName=joaompinto.asciidoctor-vscode
 [Better TOML]: https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml
 [C/C++]: https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
-[C/C++]: https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
 [C#]: https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp
 [Crystal Language]: https://marketplace.visualstudio.com/items?itemName=faustinoaq.crystal-lang
 [Dart Code]: https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code
+[edgedb]: https://marketplace.visualstudio.com/items?itemName=magicstack.edgedb
 [ElixirLS]: https://marketplace.visualstudio.com/items?itemName=JakeBecker.elixir-ls
 [Elm]: https://marketplace.visualstudio.com/items?itemName=Elmtooling.elm-ls-vscode
 [erlang]: https://marketplace.visualstudio.com/items?itemName=pgourlain.erlang
