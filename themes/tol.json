@@ -665,6 +665,7 @@
                 "source.reason string.other.link",
                 "source.rust entity.name.type",
                 "source.sass constant.character.module.name",
+                "storage.type.edgeql",
                 "storage.type.elm",
                 "storage.type.haskell",
                 "support.constant.attribute-name.asciidoc",
