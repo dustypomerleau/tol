@@ -10,6 +10,7 @@
         "builtinType": "#eedd88",
         "class": "#ffaabb",
         "comment": "#7e818b",
+        "decorator": "#dddddd",
         "enum": "#dddddd",
         "enumMember": "#ffaabb",
         "escapeSequence": "#44bb99",
