@@ -11,6 +11,7 @@
         "class": "#ffaabb",
         "comment": "#7e818b",
         "decorator": "#dddddd",
+        "derive.declaration": "#44bb99",
         "enum": "#dddddd",
         "enumMember": "#ffaabb",
         "escapeSequence": "#44bb99",
