@@ -2,6 +2,15 @@
 
 ## A comfortable and accessible dark theme for Visual Studio Code
 
+---
+
+### A note on maintenance:
+
+I have moved on to using [Tol.nvim][] as my regular theme.
+I will gladly merge PRs to keep this repo working nicely for everyone, but I won't be actively maintaining it.
+
+---
+
 Tol is heavily influenced by my [Yarra Valley][] theme, but uses a more muted palette developed by [Paul Tol][] for clarity and color accessibility.
 
 Tol provides support for semantic highlighting and bracket colorization.
@@ -60,55 +69,55 @@ For available options, check out the [Theme Color][] docs. Default colors are li
 
 ## Supported languages and extensions
 
-- AsciiDoc ([AsciiDoc][])
-- C ([C/C++][])
-- C# ([C#][])
-- C++ ([C/C++][])
-- Clojure
-- Crystal ([Crystal Language][])
-- CSS
-- Dart ([Dart Code][])
-- EdgeQL ([edgedb][])
-- Elixir ([ElixirLS][])
-- Elm ([Elm][])
-- Erlang ([erlang][])
-- F# ([Ionide-fsharp][])
-- Gleam ([Gleam Syntax][])
-- Go ([Go][])
-- GraphQL ([GraphQL][])
-- Haskell ([Haskell Syntax Highlighting][])
-- HTML
-- Idris ([Idris][])
-- Java ([Java Extension Pack][])
-- JavaScript
-- JavaScript React (JSX)
-- Kotlin ([Kotlin Language][])
-- LaTeX ([LaTeX Workshop][])
-- Less
-- Lua ([Lua][])
-- makefile
-- Markdown
-- Ocaml ([reason-vscode][] or [OCaml and Reason IDE][])
-- PHP
-- PowerShell ([PowerShell][])
-- Python ([Python][])
-- R ([R][])
-- Racket ([Magic Racket][])
-- Reason ([reason-vscode][] or [OCaml and Reason IDE][])
-- reStructuredText ([reStructuredText Syntax Highlighting][])
-- Ruby ([Ruby][] + [VSCode Ruby][])
-- Rust ([Rust Syntax][] + [rust-analyzer][])
-- Sass ([Sass][])
-- Scheme ([vscode-scheme][])
-- SCSS
-- shell script
-- SQL
-- Swift ([Swift Language][])
-- TOML ([Better TOML][])
-- TypeScript
-- TypeScript React (TSX)
-- VimScript ([VimL][])
-- YAML
+-   AsciiDoc ([AsciiDoc][])
+-   C ([C/C++][])
+-   C# ([C#][])
+-   C++ ([C/C++][])
+-   Clojure
+-   Crystal ([Crystal Language][])
+-   CSS
+-   Dart ([Dart Code][])
+-   EdgeQL ([edgedb][])
+-   Elixir ([ElixirLS][])
+-   Elm ([Elm][])
+-   Erlang ([erlang][])
+-   F# ([Ionide-fsharp][])
+-   Gleam ([Gleam Syntax][])
+-   Go ([Go][])
+-   GraphQL ([GraphQL][])
+-   Haskell ([Haskell Syntax Highlighting][])
+-   HTML
+-   Idris ([Idris][])
+-   Java ([Java Extension Pack][])
+-   JavaScript
+-   JavaScript React (JSX)
+-   Kotlin ([Kotlin Language][])
+-   LaTeX ([LaTeX Workshop][])
+-   Less
+-   Lua ([Lua][])
+-   makefile
+-   Markdown
+-   Ocaml ([reason-vscode][] or [OCaml and Reason IDE][])
+-   PHP
+-   PowerShell ([PowerShell][])
+-   Python ([Python][])
+-   R ([R][])
+-   Racket ([Magic Racket][])
+-   Reason ([reason-vscode][] or [OCaml and Reason IDE][])
+-   reStructuredText ([reStructuredText Syntax Highlighting][])
+-   Ruby ([Ruby][] + [VSCode Ruby][])
+-   Rust ([Rust Syntax][] + [rust-analyzer][])
+-   Sass ([Sass][])
+-   Scheme ([vscode-scheme][])
+-   SCSS
+-   shell script
+-   SQL
+-   Swift ([Swift Language][])
+-   TOML ([Better TOML][])
+-   TypeScript
+-   TypeScript React (TSX)
+-   VimScript ([VimL][])
+-   YAML
 
 <!--
 ## Planned languages:
@@ -126,8 +135,8 @@ For available options, check out the [Theme Color][] docs. Default colors are li
 [`colors.txt`]: https://github.com/dustypomerleau/tol/blob/master/colors.txt
 [AsciiDoc]: https://marketplace.visualstudio.com/items?itemName=joaompinto.asciidoctor-vscode
 [Better TOML]: https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml
-[C/C++]: https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
 [C#]: https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp
+[C/C++]: https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
 [Crystal Language]: https://marketplace.visualstudio.com/items?itemName=faustinoaq.crystal-lang
 [Dart Code]: https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code
 [edgedb]: https://marketplace.visualstudio.com/items?itemName=magicstack.edgedb
@@ -158,6 +167,7 @@ For available options, check out the [Theme Color][] docs. Default colors are li
 [Sass]: https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented
 [Swift Language]: https://marketplace.visualstudio.com/items?itemName=Kasik96.swift
 [Theme Color]: https://code.visualstudio.com/api/references/theme-color
+[Tol.nvim]: https://github.com/dustypomerleau/tol.nvim
 [VimL]: https://marketplace.visualstudio.com/items?itemName=XadillaX.viml
 [VSCode Ruby]: https://marketplace.visualstudio.com/items?itemName=wingrunr21.vscode-ruby
 [vscode-scheme]: https://marketplace.visualstudio.com/items?itemName=sjhuangx.vscode-scheme
